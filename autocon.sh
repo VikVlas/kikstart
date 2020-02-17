@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 mkfs.ext4  /dev/sdc1
 pvcreate /dev/sdb4 /dev/sdc1
